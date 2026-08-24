@@ -1,0 +1,14 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A mentored Rust systems-programming project"
+license = "MIT"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
